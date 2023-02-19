@@ -30,7 +30,7 @@
     - Username: admin   
     - Email address: admin@apisenai.com.br
     - Password: Senai@2023
-- Provavelmente ocorrerá o erro arquivo index.html do swagger, para isto verifique a Known Issue do link abaixo:
+- Provavelmente ocorrerá o erro arquivo index.html do swagger, para isto verifique a seção Known Issue do link abaixo:
   - https://roytuts.com/how-to-use-swagger-with-python-based-django-rest-apis/
   - O arquivo index.html corrigido está no Google Drive: https://drive.google.com/drive/folders/1n6Y12PgOJNQfadhs0iUxk0xCYzBsQ7gX?usp=sharing
 - Executar o server: python manage.py runserver

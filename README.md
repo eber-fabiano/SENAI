@@ -49,6 +49,6 @@
 
 # Melhorias a serem realizadas
 - Refatorar o código da detecção do objeto de interesse, separando a lógica de consumo da API da implementação do YOLO.
-- Implementar a lógica para renovar o refresh_token após 24 horas automaticamente.
+- Implementar a lógica para renovar automaticamente o refresh_token após 24 horas.
 - Adaptar o código para rodar API no Docker Compose.
 - Estudar como passar os parâmetros para a API utilizando PathParam.

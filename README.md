@@ -17,7 +17,7 @@
 - Criar ambiente django: conda create --name django python=3.10
 - Ativar ambiente djando: conda activate django
 - Instalar as dependêndias: 
-  pip install djangorestframework
+  - pip install djangorestframework
   pip install django-rest-swagger
   pip install djangorestframework-simplejwt
   pip install psycopg2 

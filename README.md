@@ -45,12 +45,15 @@
 - Iniciar a detecção pela webcam: python detect.py --weights runs/train/mouse/weights/best.pt --conf 0.6 --img-size 640 --source 0
 
 # Observações
-- O treinamento da rede neural YOLO ocorreu por meio de 348 imagens de mouses, onde o dataset foi dividido em 279 imagens de treinamento, 34 imagens para teste e 35 imagens para validação.
-- Todas as imagens foram anotadas utilizando a ferramenta labelme (https://github.com/wkentaro/labelme).
+- O treinamento da rede neural YOLO ocorreu por meio de 348 imagens de mouses, onde o dataset foi dividido em 279 imagens de treinamento, 34 imagens para teste e 35 imagens para validação
+  - Datasets:
+    - https://images.cv/download/mouse/2019/CALL_FROM_SEARCH/%22mouse%22
+    - https://universe.roboflow.com/new-workspace-1ds51/yolov5_test-pl6ao/dataset/1
+- Todas as imagens foram anotadas utilizando a ferramenta labelme (https://github.com/wkentaro/labelme)
 
 # Melhorias a serem realizadas
-- Refatorar o código da detecção do objeto de interesse, separando a lógica de consumo da API da implementação do YOLO (arquivo ./yolov7/detect.py).
-- Implementar a lógica para renovar automaticamente o refresh_token após 24 horas (arquivo ./yolov7/detect.py).
-- Estudar como passar os parâmetros para a API utilizando PathParam (arquivo ./api_senai/rest_api/views.py).
-- Adaptar o código para rodar API no Docker Compose.
+- Refatorar o código da detecção do objeto de interesse, separando a lógica de consumo da API da implementação do YOLO (arquivo ./yolov7/detect.py)
+- Implementar a lógica para renovar automaticamente o refresh_token após 24 horas (arquivo ./yolov7/detect.py)
+- Estudar como passar os parâmetros para a API utilizando PathParam (arquivo ./api_senai/rest_api/views.py)
+- Adaptar o código para rodar API no Docker Compose
 
